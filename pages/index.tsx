@@ -103,7 +103,7 @@ const Index = (): ReactElement => {
           </div>
 
           <div className="row mbd">
-            <div className="col-6">
+            <div className="col-md-6">
               {showWarning && <>
                 <div className="pad bg-alert">Too many dice to calculate. Try again with 9 or fewer dice.</div>
               </>}
@@ -111,7 +111,7 @@ const Index = (): ReactElement => {
           </div>
 
           <div className="row mbxl">
-            <div className="col-6">
+            <div className="col-md-6">
               <h2 className="text-xl bold mbd mts">Results</h2>
               <div>
                 <Probability label="Probability of failure" result={results.pFailure} isPercent/>
