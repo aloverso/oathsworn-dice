@@ -96,6 +96,13 @@ h5 {
   }
 }
 
+@media (max-width: $xs) {
+  .text-xxl {
+    font-weight: 700;
+    font-size: 2.3rem;
+  }
+}
+
 .font-sans {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;

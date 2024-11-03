@@ -28,8 +28,8 @@ const Index = (): ReactElement => {
   return (
     <>
       <main>
-        <div className="container mvxl">
-          <div className="row mbl">
+        <div className="container mbxl mtm">
+          <div className="row mbs">
             <div className="col-12">
               <h1 className="text-xxl bold">Oathsworn Dice Calculator</h1>
             </div>
@@ -112,7 +112,7 @@ const Index = (): ReactElement => {
 
           <div className="row mbxl">
             <div className="col-6">
-              <h2 className="text-xl bold mvd">Results</h2>
+              <h2 className="text-xl bold mbd mts">Results</h2>
               <div>
                 <Probability label="Probability of failure" result={results.pFailure} isPercent/>
               </div>
